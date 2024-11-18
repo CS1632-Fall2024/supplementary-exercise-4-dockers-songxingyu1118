@@ -14,5 +14,5 @@ COPY src src
 # expose default Spring Boot port 8080
 EXPOSE 8080
 
-# define default command
+# define default commands
 CMD ["/bin/sh", "-c", "mvn spring-boot:run"]
